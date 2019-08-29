@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+}
+.header {
+    background: grey;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+.banner-title {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+}
+.banner-block-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}     
+.banner-block-video {
+    box-shadow: yellow 0 0 20px 1px;
+}
+.button {
+    padding: 10px 40px;
+    display: inline;
+    text-decoration: none;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+.banner-button {
+    background: yellow;
+    color: white;
+    margin-left: 178px;
+}
+.main-inf {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.main-inf-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    margin-left: 178px;
+}
+.main-inf-articles {
+    display: flex;
+    width: 560px;
+    flex-wrap: wrap;
+    margin-left: 850px; 
+}
+.article-block {
+    width: 50%;
+    margin-bottom: 20px;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+}
+.foooter {
+    background: yellow;
+    padding: 20px;
+    margin-top: 30px;
+}
+.footer-inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    margin-right: 20px;
+}
+.copyright {
+    color: black;
+    margin-left: 800px;
+}
+
+
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.article-name{
+    border-radius: 10px;
+    background: yellow;
+    padding: 20px;
+    margin-left: 178px;
+    padding-right: 0;
+    margin-top: 20px;
+    width: 430px;
+
+}
+.article-body{
+    padding: 20px; 
+    background:white;
+    margin-left: 178px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 430px;
+    padding-right: 0;
+}
+
+.article-text{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
